@@ -31,7 +31,7 @@ const App = ({ navigation }) => {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
-                'Api-Key': 'pFPb44gtawEAerwfBimyzSAGsl9wmaK5DeLKaoklQ7RXZ8Wgyu', // Replace with your actual API key
+                'Api-Key': 'YOUR PLANT ID API KEY', // Replace with your actual API key
             },
             body: JSON.stringify({ images: [base64Image] }),
         });
