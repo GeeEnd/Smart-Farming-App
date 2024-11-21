@@ -10,7 +10,7 @@ export default function CameraScreen() {
   const [cameraRef, setCameraRef] = useState(null);
   const [imageUri, setImageUri] = useState(null);
   const [insectInfo, setInsectInfo] = useState('');
-  const [googleVisionKey, setGoogleVisionKey] = useState('AIzaSyCbRFae7Kj9lyswMbBh6fy7Lhlxb8tWLLU'); // Set your Google Vision API key here
+  const [googleVisionKey, setGoogleVisionKey] = useState('GOOGLE API KEY'); // Set your Google Vision API key here
 
   useEffect(() => {
     (async () => {
