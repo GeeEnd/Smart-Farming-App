@@ -63,7 +63,7 @@ const App = () => {
           });
         });
 
-      const apiKey = 'AIzaSyCbRFae7Kj9lyswMbBh6fy7Lhlxb8tWLLU'; // Replace with your actual API key
+      const apiKey = 'YOUR GOOGLE API KEY'; // Replace with your actual API key
       const apiUrl = `https://vision.googleapis.com/v1/images:annotate?key=${apiKey}`;
 
       const requestPayload = {
